@@ -1,0 +1,10 @@
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+pandas
+xlsxwriter
+requests
+openpyxl
+selenium
+chromedriver-binary==118.0.5993.70
