@@ -26,7 +26,7 @@ jobs:
           pip install selenium
           pip install chromedriver-binary==118.0.5993.70
 
-      - name: Run script
+      - name: Run script yahoo_scraping.py
         env:
           GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
